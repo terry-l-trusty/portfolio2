@@ -146,6 +146,7 @@ justify-content: center;
 margin-top: 50px;
 }
 
+/*styling for button */
 .button > button{
   background-color: white;
   font-family: 'Source Code Pro', monospace;
@@ -153,3 +154,7 @@ margin-top: 50px;
 
 }
 
+/*Styiling for first paragraph */
+article > p{
+  font-size: 14px;;
+}
