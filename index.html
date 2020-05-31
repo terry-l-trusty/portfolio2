@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Trusty Portfolio </title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link  href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css" rel="stylesheet" type="text/css"/>
+  </head>
+  
+  <body>
+
+<!--Header section - detailing the navigation items and name of the page-->
+    <header>
+      <h1>
+        Trusty Portfolio
+      </h1>
+      <nav>
+        <b><a href="#about">About</a> | <a href="#skills">Skills</a> | <a href="#projects">Projects</a> | <a href="#contact">Contact Me</b></a>
+      </nav>
+    </header>
+
+
+
+<!--Section containing the main content-->
+
+    <main>
+      <!--Adding the profile picture-->
+      <div class="profile">
+        <img src="images/profile-pic.jpeg" alt="picture of the developer">
+      </div>
+
+      <!--About me section header-->
+      <div class="titles">
+        <h2 id="about">
+          About Me
+        </h2>
+      </div>
+
+      <!--Article describing why I should be hired -->
+      <article class="art" style="word-wrap: break-word;"><p>
+        Hi! My name is Terry Trusty, and I'm a Software Developer located in Baltimore, Maryland. I love software development because I love creating value for someone else. Working in the financial services industry, I learned that technology and automation could make everything better! I love taking a problem, researching how technology can resolve the issue, and then implementing the code necessary to fix it. There is no more excellent feeling than making someone's life better through a carefully crafted program. Take a look at the below skills I've gained, and projects I've worked on and let us see if I can make your life better!
+        </p>
+      </article>
+
+      <!--Skills section with images of languages-->
+      <div class="titles">
+        <h2 id="skills">
+          Skills
+        </h2>
+      </div>
+
+      <div class="icon">
+        <img src="images/html.png" alt="html icon">
+        <img src="images/css.png" alt="html icon">
+        <img src="images/Javascript.png" alt="html icon">
+        <img src="images/python.png" alt="html icon">
+      </div>
+
+        <ol>
+          <li>Communication</li>
+          <li>Adaptability</li>
+          <li>Resourceful</li>
+          <li>Persuasion</li>
+          
+        </ol>
+
+      <!--Section detailing the projects im working on -->
+      <div class="titles">
+        <h2 id="projects">
+          Projects
+        </h2>
+      </div>
+
+      <!--Individual Projects-->
+    
+      <div class="projects1">
+        <h3>
+          <b>Account Reconciliation Tool</b>
+        </h3>
+      </div>
+      
+      
+
+      <article class="art">
+        <ul>
+          <li><p><b>Objective</b> - Develop account reconciliation tool comparing thousands of trades across two databases. Display top variances and highlight driving factors behind the variance.</p></li>
+          <li><p><b>Process</b> - Constructed Python script to download trade data from database. Compared and contrasted each position and generated an Excel file arranging data by largest variances.</p></li>
+          <li><p><b>Result</b> - Reconciliation tool eliminated a majority of the manual data sourcing and reduces total team reconciliation time by 10%.</p></li>
+        </ul>
+      </article>
+      <hr></hr>
+      
+      <div class="projects1">
+        <h3>
+          <b>Profit & Loss Commentary Tool</b>
+        </h3>
+      </div>
+
+
+      <article class="art">
+        <ul>
+          <li><p><b>Objective</b> - Automate weekly commentary process, highlighting top Profit & Loss drivers and the underlying market conditions leading to week-over-week revenue movements.</p></li>
+          <li><p><b>Process</b> - Scraped revenue data for each bond sector from the data lake. Generated commentary presenting top revenue drivers, distinguishing between new trades revenue and market movement revenue on existing inventory.</p></li> 
+          <li><p><b>Result</b> - Implemented the tool across different teams, reducing each individual team member workflow by 10%.</p></li>
+        </ul>
+      </article>
+      <hr></hr>
+      
+    
+      <div class="projects1">
+        <h3>
+          <b>Inventory Management Tool</b>
+        </h3>
+      </div>
+
+      <article class="art">
+        <ul>
+          <li ><p><b>Objective</b> - Automate the inventory management process particularly for those in the food hospitality industry. Provide an interface for the user to plan menus and track utilized inventory and receive alerts when items need to be re-stocked.</p></li>
+          <li><p><b>Process</b> - Allow user to upload and select from an array of menu items with their costs, along with inventory movements as items are used. Send the user alerts when inventory gets below a certain point and make suggestions on which materials to buy.</p></li> 
+          <li><p><b>Result</b> - TBD</p></li>
+        </ul>  
+      </article> 
+      <hr></hr>  
+      </main>   
+
+
+      <!--Contact me section. -->
+ 
+
+  <!--Start of footer section with contact me button-->
+
+
+    <footer>
+    <div class="titles">
+      <h2 id="contact">
+        Contact Me
+      </h2>
+    </div>
+
+    <div class="icon">
+        <a href="https://www.linkedin.com/in/terry-trusty/" target="_blank">
+          <img src="images/linkedin.png">
+        </a>
+        <a href ="https://github.com/terry-l-trusty" target="_blank">
+          <img src='images/github.png'>
+        </a>
+    </div>
+        <div class="button">
+          <button type="button" onclick="location.href='mailto:terry.l.trusty.jr@gmail.com?subject=I%20Want%20To%20Hire%20You';" >Click here to make your dreams come true!</button>
+    </div>
+    </footer>
+
+
+    <script src="script.js"></script>
+  </body>
+</html>

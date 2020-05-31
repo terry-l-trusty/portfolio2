@@ -1,0 +1,155 @@
+
+/*font style*/
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap');
+
+
+/*Wrap the main content*/
+
+
+/*Set the background color of the body*/
+body{
+  background-color: #C2DFFF;
+}
+
+/* Mobile Design - Provide a color and font style for the nav items. Move nav to the center of screen*/
+h1{
+  display: flex;
+  justify-content: center;
+  font-family: 'Source Code Pro', monospace;
+  color: gray;
+  width: auto;
+}
+
+/* Desktop design - Provide a color and font style for the nav items. Move nav to the right side of screen*/
+@media all and (min-width: 800px) {
+h1{
+  display: flex;
+  justify-content: center;
+  font-family: 'Source Code Pro', monospace;
+  color: gray;
+}
+}
+/* Mobile Design - Provide a color and font style for the nav items. Move nav to the center of screen*/
+nav{
+  display: flex;
+  justify-content: center;
+  font-family: 'Source Code Pro', monospace;
+  color: gray;
+  font-size: 14px;
+  
+}
+
+/* Desktop design - Provide a color and font style for the nav items. Move nav to the right side of screen*/
+@media all and (min-width: 800px) {
+nav{
+  display: flex;
+  justify-content: center;
+  font-family: 'Source Code Pro', monospace;
+  color: gray;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+}
+
+/* Mobile Design - Provide a color and font style for the title headers. Move the h2 to the center of screen*/
+.titles{
+  display: flex;
+  justify-content: center;
+  font-family: 'Source Code Pro', monospace;
+  color: gray;
+}
+
+/* Mobile Design - Provide a color and font style for the articles. Move the articles to the center of screen*/ 
+article{
+  display: flex;
+  justify-content: center;
+  font-family: 'Source Code Pro', monospace;
+  color:#191970
+}
+
+/*center the profile image. Make it circular. */
+.profile img{
+  margin-top: 20px;
+  height: 300px;
+  display: flex;
+  border-radius: 50%;
+}
+
+/*move the profile picture to the middle*/
+.profile{
+  display: flex;
+  justify-content: center;
+}
+
+/*styling for the language images*/
+.icon{
+  display:flex;
+  justify-content: center;
+  height: 50px;
+}
+
+ol {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Source Code Pro', monospace;
+  color:#191970;
+  padding: 0px;
+
+}
+
+
+
+/* styling for spacing between each icon image*/
+.icon img{
+  margin: 10px;
+}
+
+/*set all the project headers with the same styling*/
+.projects1{
+  display: flex;
+  justify-content: center;
+  font-family: 'Source Code Pro', monospace;
+  color: #696969;
+  font-weight:bolder;
+}
+/*Styling for the text describing the projects*/
+.art{
+  display: flex;
+  justify-content: center;
+  font-weight: bolder;
+}
+/* footer icon image styling*/
+.footer{
+  display:flex;
+  justify-content: center;
+  height: 50px;
+}
+/*getting rid of the blue lines under the links */
+a { 
+  link
+  text-decoration: none;
+  color: inherit; 
+  } 
+
+/*Styling for links*/
+a:link    { color: blue;  }
+a:visited { color:inherit;   }
+a:hover   { color: inherit; }
+a:active  { color: pink;  }
+
+/*Desktop design - Styling for the button*/
+
+.button{
+display: flex;
+justify-content: center;
+margin-top: 50px;
+}
+
+.button > button{
+  background-color: white;
+  font-family: 'Source Code Pro', monospace;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
