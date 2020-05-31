@@ -133,7 +133,7 @@ a {
   } 
 
 /*Styling for links*/
-a:link    { color: blue;  }
+a:link    { color:inherit;  }
 a:visited { color:inherit;   }
 a:hover   { color: inherit; }
 a:active  { color: pink;  }
